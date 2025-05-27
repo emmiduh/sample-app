@@ -10,12 +10,19 @@ This project is part of the **"Implement DevOps Workflow in Google Cloud"** chal
 It focuses on delivering a containerized Go application from **source to production** using automated pipelines.
 
 sample-app/
+
 ├── main.go # Core Go application
+
 ├── Dockerfile # Container build file
+
 ├── cloudbuild.yaml # Cloud Build pipeline for production
+
 ├── cloudbuild-dev.yaml # Cloud Build pipeline for development
+
 ├── dev/ # Development deployment configs
+
 ├── prod/ # Production deployment configs
+
 └── README.md # Project info and instructions
 
 ---
